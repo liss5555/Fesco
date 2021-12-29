@@ -1,6 +1,11 @@
 html,
 body {
 	height: 100%;
+	font-family: 'Vollkorn', serif;
+	font-size: 15px;
+	color: #fff;
+	// font-family: 'Raleway', sans-serif;
+	// font-family: 'Yesteryear', cursive;
 }
 
 .wrapper {
@@ -17,7 +22,7 @@ body {
 }
 
 .container{
-  max-width: 1200px;
+  max-width: 970px;
   margin: 0 auto;
   padding: 0 15px;
 }
