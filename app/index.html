@@ -15,44 +15,54 @@
 <body>
 	<div class="wrapper">
 
-		<header class="header">
+		<header class="header" style="background-image: url('../images/bg1.jpg')">
 			<div class="container">
-				<div class="header__inner">
-					<div class="header__logo">
-						<a href="#">
-							<img src="images/logo.png" alt="">
-						</a>
+				<div class="header__wrapper">
+					<div class="header__inner">
+						<div class="header__logo">
+							<a href="#">
+								<img src="images/logo.png" alt="">
+							</a>
+						</div>
+						<ul class="header__menu">
+							<li class="header__menu-list"><a href="#">Home</a></li>
+							<li class="header__menu-list"><a href="#">About Us</a></li>
+							<li class="header__menu-list"><a href="#">Menu</a></li>
+							<li class="header__menu-list"><a href="#">Reservations</a></li>
+							<li class="header__menu-list"><a href="#">Contact</a></li>
+						</ul>
 					</div>
-					<ul class="header__menu">
-						<li class="header__menu-list"><a href="#">Home</a></li>
-						<li class="header__menu-list"><a href="#">About Us</a></li>
-						<li class="header__menu-list"><a href="#">Menu</a></li>
-						<li class="header__menu-list"><a href="#">Reservations</a></li>
-						<li class="header__menu-list"><a href="#">Contact</a></li>
-					</ul>
-				</div>
-				<div class="header__content">
-					<img class="header__img" src="images/Icon.png" alt=icon"">
-					<h1 class="header__title">Making Food Taste Better.</h1>
-				</div>
-				<h3 class="header__subtitle">Italian Specialities</h3>
-				<p class="header__text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
-				</p>
-				<div class="header__contact">
-					<div class="header__contact-title">Contact</div>
-					<div class="header__contact-text">Vestibulum ante ipsum primis in faucibus orciluctus et ultrices posuere
-						cubilia.</div>
-					<div class="header__contact-address">address</div>
-					<p>17 Awesome Street, Belgrade</p>
-					<p>SR 877900</p>
-					<a href="#" class="header__contact-map">view map</a>
-					<div class="header__contact-hours">OPENING HOURS:</div>
-					<p>Monday - Friday........................8:00am - 11:00 pm</p>
-					<p>Saturday - Sunday......................8:00am - 10:00 pm</p>
-					<a href="#" class="header__contact-btn">Table Reservation</a>
+
+					<div class="header__content">
+						<img class="header__img" src="images/Icon.png" alt=icon"">
+						<h1 class="header__title">Making Food Taste Better.</h1>
+					</div>
+					<h3 class="header__subtitle">Italian Specialities</h3>
+					<p class="header__text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+					</p>
+
+					<div class="header__contact">
+						<div class="header__contact-title">Contact</div>
+						<div class="header__contact-text">Vestibulum ante ipsum primis in faucibus orciluctus et ultrices posuere
+							cubilia.</div>
+						<div class="header__contact-address">address</div>
+						<p>17 Awesome Street, Belgrade</p>
+						<p>SR 877900</p>
+						<a href="#" class="header__contact-map">view map</a>
+						<div class="header__contact-hours">OPENING HOURS:</div>
+						<p>Monday - Friday........................8:00am - 11:00 pm</p>
+						<p>Saturday - Sunday......................8:00am - 10:00 pm</p>
+						<div class="header__contact-btn">
+
+							<a href="#">Table Reservation</a>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</header>
+
+
 		<main class="main">
 			<section class="about">
 				<div class="container">
@@ -72,22 +82,37 @@
 								dictum
 								porta.</p>
 						</div>
-						<div class="about__inner-image">
-							<img src="images/img1.jpg" alt="">
-						</div>
+						<!-- <div class="about__inner-image"> -->
+						<img class="about__inner-image" src="images/img1.jpg" alt="">
+						<!-- </div> -->
 
 					</div>
 				</div>
+
 			</section>
 			<section class="special">
 				<div class="container">
 					<h2 class="special__title">Our Specialities</h2>
-					<p class="special__subtitle">Our Specialities</p>
+					<p class="special__subtitle">Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+						Nulla port or accumsan tincidunt.</p>
 					<div class="special__offers">
-						<img src="images/img2.jpg" alt="">
-						<img src="images/img3.jpg" alt="">
-						<img src="images/img4.jpg" alt="">
-						<img src="images/img5.jpg" alt="">
+
+						<div class="special__offers-price">
+							<img src="images/img2.jpg" alt="">
+							<p>Lasagna ............... 19.99$</p>
+						</div>
+						<div class="special__offers-price">
+							<img src="images/img3.jpg" alt="">
+							<p>Lasagna ............... 19.99$</p>
+						</div>
+						<div class="special__offers-price">
+							<img src="images/img4.jpg" alt="">
+							<p>Lasagna ............... 19.99$</p>
+						</div>
+						<div class="special__offers-price">
+							<img src="images/img5.jpg" alt="">
+							<p>Lasagna ............... 19.99$</p>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -96,144 +121,156 @@
 			<section class="menu">
 				<div class="container">
 					<h2 class="menu__title">our menu</h2>
-					<p>Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
+					<p class="menu__subtitle">Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
+
+					<h4 class="menu__pizza-title">.......... PIZZA ..........</h4>
 
 					<div class="menu__pizza">
-						<h4 class="menu__pizza-title">.......... PIZZA ..........</h4>
-						<div class="menu__pizza-item item">
-							<div class="item__name">
-								<h5 class="item__name-title">MEXICANA</h5>
-								<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
-									ullamcorper sit amet ligula.............................</p>
-							</div>
-							<div class="item__price">$19</div>
-						</div>
-						<div class="menu__pizza-item item">
-							<div class="item__name">
-								<h5 class="item__name-title">MEXICANA</h5>
-								<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
-									ullamcorper sit amet ligula.............................</p>
-							</div>
-							<div class="item__price">$19</div>
-						</div>
-						<div class="menu__pizza-item item">
-							<div class="item__name">
-								<h5 class="item__name-title">MEXICANA</h5>
-								<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
-									ullamcorper sit amet ligula.............................</p>
-							</div>
-							<div class="item__price">$19</div>
-						</div>
-						<div class="menu__pizza-item item">
-							<div class="item__name">
-								<h5 class="item__name-title">MEXICANA</h5>
-								<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
-									ullamcorper sit amet ligula.............................</p>
-							</div>
-							<div class="item__price">$19</div>
-						</div>
-						<div class="menu__pizza-item item">
-							<div class="item__name">
-								<h5 class="item__name-title">MEXICANA</h5>
-								<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
-									ullamcorper sit amet ligula.............................</p>
-							</div>
-							<div class="item__price">$19</div>
-						</div>
-						<div class="menu__pizza-item item">
-							<div class="item__name">
-								<h5 class="item__name-title">MEXICANA</h5>
-								<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
-									ullamcorper sit amet ligula.............................</p>
-							</div>
-							<div class="item__price">$19</div>
-						</div>
-						<div class="menu__pizza-item item">
-							<div class="item__name">
-								<h5 class="item__name-title">MEXICANA</h5>
-								<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
-									ullamcorper sit amet ligula.............................</p>
-							</div>
-							<div class="item__price">$19</div>
-						</div>
-						<div class="menu__pizza-item item">
-							<div class="item__name">
-								<h5 class="item__name-title">MEXICANA</h5>
-								<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
-									ullamcorper sit amet ligula.............................</p>
-							</div>
-							<div class="item__price">$19</div>
-						</div>
-					</div>
-					<div class="menu__desserts">
-						<h4 class="menu__desserts-title">.......... desserts ..........</h4>
-						<div class="menu__desserts-item item">
-							<div class="item__name">
-								<h5 class="item__name-title">CHOCOLATE HAZELNUT CHEESECAKE</h5>
-								<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
-									ullamcorper sit amet ligula.............................</p>
-							</div>
-							<div class="item__price">$7</div>
-						</div>
-						<div class="menu__desserts-item item">
-							<div class="item__name">
-								<h5 class="item__name-title">CHOCOLATE HAZELNUT CHEESECAKE</h5>
-								<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
-									ullamcorper sit amet ligula.............................</p>
-							</div>
-							<div class="item__price">$7</div>
-						</div>
-						<div class="menu__desserts-item item">
-							<div class="item__name">
-								<h5 class="item__name-title">CHOCOLATE HAZELNUT CHEESECAKE</h5>
-								<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
-									ullamcorper sit amet ligula.............................</p>
-							</div>
-							<div class="item__price">$7</div>
-						</div>
-						<div class="menu__desserts-item item">
-							<div class="item__name">
-								<h5 class="item__name-title">CHOCOLATE HAZELNUT CHEESECAKE</h5>
-								<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
-									ullamcorper sit amet ligula.............................</p>
-							</div>
-							<div class="item__price">$7</div>
-						</div>
-						<div class="menu__desserts-item item">
-							<div class="item__name">
-								<h5 class="item__name-title">CHOCOLATE HAZELNUT CHEESECAKE</h5>
-								<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
-									ullamcorper sit amet ligula.............................</p>
-							</div>
-							<div class="item__price">$7</div>
-						</div>
-						<div class="menu__desserts-item item">
-							<div class="item__name">
-								<h5 class="item__name-title">CHOCOLATE HAZELNUT CHEESECAKE</h5>
-								<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
-									ullamcorper sit amet ligula.............................</p>
-							</div>
-							<div class="item__price">$7</div>
-						</div>
-						<div class="menu__desserts-item item">
-							<div class="item__name">
-								<h5 class="item__name-title">CHOCOLATE HAZELNUT CHEESECAKE</h5>
-								<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
-									ullamcorper sit amet ligula.............................</p>
-							</div>
-							<div class="item__price">$7</div>
-						</div>
-						<div class="menu__desserts-item item">
-							<div class="item__name">
-								<h5 class="item__name-title">CHOCOLATE HAZELNUT CHEESECAKE</h5>
-								<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
-									ullamcorper sit amet ligula.............................</p>
-							</div>
-							<div class="item__price">$7</div>
-						</div>
-					</div>
-					<a href="" class="menu__btn">View All Menu</a>
 
+						<div class="menu__pizza-left">
+							<div class="menu__pizza-item item">
+								<div class="item__name">
+									<h5 class="item__name-title">MEXICANA</h5>
+									<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
+										ullamcorper sit amet ligula.............................</p>
+								</div>
+								<div class="item__price">$19</div>
+							</div>
+							<div class="menu__pizza-item item">
+								<div class="item__name">
+									<h5 class="item__name-title">MARGHERITA</h5>
+									<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
+										ullamcorper sit amet ligula.............................</p>
+								</div>
+								<div class="item__price">$16</div>
+							</div>
+							<div class="menu__pizza-item item">
+								<div class="item__name">
+									<h5 class="item__name-title">HAWAIAN</h5>
+									<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
+										ullamcorper sit amet ligula.............................</p>
+								</div>
+								<div class="item__price">$18</div>
+							</div>
+							<div class="menu__pizza-item item">
+								<div class="item__name">
+									<h5 class="item__name-title">CHICKEN</h5>
+									<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
+										ullamcorper sit amet ligula.............................</p>
+								</div>
+								<div class="item__price">$14</div>
+							</div>
+						</div>
+
+						<div class="menu__pizza-right">
+							<div class="menu__pizza-item item">
+								<div class="item__name">
+									<h5 class="item__name-title">MEXICANA</h5>
+									<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
+										ullamcorper sit amet ligula.............................</p>
+								</div>
+								<div class="item__price">$19</div>
+							</div>
+							<div class="menu__pizza-item item">
+								<div class="item__name">
+									<h5 class="item__name-title">MARGHERITA</h5>
+									<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
+										ullamcorper sit amet ligula.............................</p>
+								</div>
+								<div class="item__price">$16</div>
+							</div>
+							<div class="menu__pizza-item item">
+								<div class="item__name">
+									<h5 class="item__name-title">HAWAIAN</h5>
+									<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
+										ullamcorper sit amet ligula.............................</p>
+								</div>
+								<div class="item__price">$18</div>
+							</div>
+							<div class="menu__pizza-item item">
+								<div class="item__name">
+									<h5 class="item__name-title">CHICKEN</h5>
+									<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
+										ullamcorper sit amet ligula.............................</p>
+								</div>
+								<div class="item__price">$14</div>
+							</div>
+						</div>
+					</div>
+					<h4 class="menu__desserts-title">.......... desserts ..........</h4>
+					<div class="menu__desserts">
+						<div class="menu__desserts-left">
+							<div class="menu__desserts-item item">
+								<div class="item__name">
+									<h5 class="item__name-title">CHOCOLATE HAZELNUT CHEESECAKE</h5>
+									<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
+										ullamcorper sit amet ligula.............................</p>
+								</div>
+								<div class="item__price">$7</div>
+							</div>
+							<div class="menu__desserts-item item">
+								<div class="item__name">
+									<h5 class="item__name-title">BANOFFEE TIRAMISU</h5>
+									<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
+										ullamcorper sit amet ligula.............................</p>
+								</div>
+								<div class="item__price">$11</div>
+							</div>
+							<div class="menu__desserts-item item">
+								<div class="item__name">
+									<h5 class="item__name-title">STICKY TOFFEE PUDDING</h5>
+									<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
+										ullamcorper sit amet ligula.............................</p>
+								</div>
+								<div class="item__price">$13</div>
+							</div>
+							<div class="menu__desserts-item item">
+								<div class="item__name">
+									<h5 class="item__name-title">PANNA COTTAS</h5>
+									<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
+										ullamcorper sit amet ligula.............................</p>
+								</div>
+								<div class="item__price">$14</div>
+							</div>
+						</div>
+						<div class="menu__desserts-right">
+							<div class="menu__desserts-item item">
+								<div class="item__name">
+									<h5 class="item__name-title">CHOCOLATE HAZELNUT CHEESECAKE</h5>
+									<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
+										ullamcorper sit amet ligula.............................</p>
+								</div>
+								<div class="item__price">$7</div>
+							</div>
+							<div class="menu__desserts-item item">
+								<div class="item__name">
+									<h5 class="item__name-title">BANOFFEE TIRAMISU</h5>
+									<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
+										ullamcorper sit amet ligula.............................</p>
+								</div>
+								<div class="item__price">$11</div>
+							</div>
+							<div class="menu__desserts-item item">
+								<div class="item__name">
+									<h5 class="item__name-title">STICKY TOFFEE PUDDING</h5>
+									<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
+										ullamcorper sit amet ligula.............................</p>
+								</div>
+								<div class="item__price">$13</div>
+							</div>
+							<div class="menu__desserts-item item">
+								<div class="item__name">
+									<h5 class="item__name-title">PANNA COTTAS</h5>
+									<p class="item__name-description">Donec velit neque, auctor sit amet aliquam vel
+										ullamcorper sit amet ligula.............................</p>
+								</div>
+								<div class="item__price">$14</div>
+							</div>
+						</div>
+					</div>
+					<div class="menu__btn">
+						<a href="#">View All Menu</a>
+					</div>
 
 
 
@@ -250,51 +287,55 @@
 							<div class="order__select-form">17/02/2017</div>
 						</div>
 						<div class="order__select-item">
-							<div class="order__select-title">CHOOSE A DATE</div>
+							<div class="order__select-title">CHOOSE A time</div>
 							<div class="order__select-form">17/02/2017</div>
 						</div>
 						<div class="order__select-item">
-							<div class="order__select-title">CHOOSE A DATE</div>
+							<div class="order__select-title">NUMBER OF PEOPLE</div>
 							<div class="order__select-form">17/02/2017</div>
 						</div>
 					</div>
-					<button class="order-btn">book now</button>
+					<button class="order-btn" type="submit">book now</button>
 				</div>
-			</section>
+			</section> 
 
 		</main>
-		<footer class="footer">
+		 <footer class="footer">
 			<div class="container">
 				<div class="footer__inner">
 					<div class="footer__address">
 						<h5 class="footer__address-title">address</h5>
 						<p>17 Awesome Street, Belgrade</p>
 						<p>SR 877900</p>
-						<a href="#" class="header__contact-btn">view map</a>
+						<a href="#" class="footer__contact-btn">view map</a>
 					</div>
 					<div class="footer__hours">
 						<h5 class="footer__hours-title">OPENING HOURS:</h5>
 						<p>Monday - Friday........................8:00am - 11:00 pm</p>
 						<p>Saturday - Sunday......................8:00am - 10:00 pm</p>
-						<a href="#" class="header__contact-btn">Table Reservation</a>
+						<a href="#" class="footer__contact-btn">Table Reservation</a>
 					</div>
-				</div>
+				
 				<div class="footer__social">
 					<h5 class="footer__social-title">WE ARE SOCIAL:</h5>
 					<p>Feel free to check our social media
 						pages</p>
-					<div class="footer__ ">
-						<ul class="footer__social-items social-items">
-							<li class="social-items"><a href=""><img src="images/facebook.svg" alt=""></a></li>
-							<li class="social-items"><a href=""><img src="images/twitter.svg" alt=""></a></li>
-							<li class="social-items"><a href=""><img src="images/g+.svg" alt=""></a></li>
-							<li class="social-items"><a href=""><img src="images/yuotube.svg" alt=""></a></li>
+
+				
+						<ul class="footer__social-items">
+							<li><a href=""><img src="images/facebook.svg" alt=""></a></li>
+							<li><a href=""><img src="images/twitter.svg" alt=""></a></li>
+							<li><a href=""><img src="images/g+.svg" alt=""></a></li>
+							<li><a href=""><img src="images/yuotube.svg" alt=""></a></li>
 						</ul>
-					</div>
+					
+
 				</div>
 
 			</div>
-		</footer>
+			<div class="footer__copy"> © 2017 - Fesco All Right Reserved</div>
+			</div>
+		</footer> 
 	</div>
 
 
