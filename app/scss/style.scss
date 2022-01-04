@@ -520,9 +520,13 @@
 		display: flex;
 		justify-content: space-between;
 	}
-
+	&__address{
+		margin-bottom: 40px;
+		margin-right: 40px;
+	}
 	&__address p {
 		margin-bottom: 14px;
+		
 	}
 
 	&__address-title {
@@ -533,6 +537,10 @@
 		color: #fff;
 		text-transform: uppercase;
 		margin-bottom: 20px;
+	}
+	&__hours{
+		margin-bottom: 40px;
+		margin-right: 40px;
 	}
 
 	&__hours p {
@@ -548,7 +556,6 @@
 		text-transform: uppercase;
 		margin-bottom: 20px;
 	}
-
 	&__social p {
 		margin-bottom: 14px;
 	}
